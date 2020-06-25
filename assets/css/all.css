@@ -1,0 +1,94 @@
+:root {
+    --title: #1E272E;
+    --titlesuport: #2F3542;
+    --text: #57606F;
+    --textsuport: #747D8C;
+    --bg:#F1F2F6;
+    --bgs: #1E272E;
+    --link: #F21D50;
+    --progress: #1ABC9C;
+}
+
+* {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    /* border: 1px solid red; */
+}
+
+body, html {
+    height: 100%;
+}
+
+h3 {
+    margin-top: 10px;
+    color: white;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+ul {
+    list-style: none;
+    display: block;
+    border: 1px solid yellow;
+
+}
+
+li {
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+.profile {
+    background: url('https://media.giphy.com/media/AYy9YYXHmsGek/giphy.gif') center;
+    width: 250px;
+    height: 250px;
+    border-radius: 100%;
+    margin: 5% 0;
+}
+
+.menu {
+    border: 1px solid purple;
+    width: 100%;
+    margin-top: 5%;
+}
+
+.all {
+    display: flex;
+    height: 100%;
+}
+
+.side {
+    display: flex;
+    width: 20%;
+    background: var(--bgs);
+    flex-direction: column;
+    align-items: center;
+}
+
+.networks > ul {
+    display: flex;
+    margin-top:
+}
+
+.networks ul li {
+    padding-left: 5px;
+}
+
+.container {
+    padding: 2% 5%;
+}
+
+.description {
+    color: white;
+    border: 1px solid red;
+    width: 100%;
+    font-size: 16px;
+}
+
+.container-side {
+    padding: 2px 20px;
+}
